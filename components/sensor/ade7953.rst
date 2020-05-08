@@ -19,6 +19,10 @@ with ESPHome. These are commonly found in **Shelly 2.5** devices.
 
 This sensor can measure voltage and has two channels for reading current and active power (A & B).
 
+.. note::
+
+  ELECTROCUTION HAZARD: Devices such as Sonoff POWs/Shelly/etc, have **the digital GND connected directly to mains voltage**. Be extremely careful and **avoid incorporating sensors into these LIVE gpio boards**.
+
 The :ref:`I²C Bus <i2c>` is
 required to be set up in your configuration for this sensor to work.
 

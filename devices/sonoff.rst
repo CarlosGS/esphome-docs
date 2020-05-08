@@ -24,6 +24,10 @@ After that use the following list of pin to function mappings to set up your Son
 This list has been compiled from the Sonoff Tasmota pin source file which can be found here:
 https://github.com/arendst/Tasmota/blob/development/tasmota/tasmota_template.h ❤️
 
+.. note::
+
+    ELECTROCUTION HAZARD: Devices such as Sonoff POWs/Shelly/etc, have **the digital GND connected directly to mains voltage**. Be extremely careful and **avoid incorporating sensors into these LIVE gpio boards**.
+
 Sonoff RF
 ---------
 
